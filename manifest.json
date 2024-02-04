@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Meet the Meeting",
+    "version": "1.0.0",
+    "description": "Identify people expressions in Google Meets calls",
+    "author": "Hugo Zanini",
+    "icons": {
+        "16": "icons/logo16.png",
+        "48": "icons/logo48.png",
+        "128": "icons/logo128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://meet.google.com/*"],
+            "js": ["content.js","face-api.min.js"],
+            "type": "module"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": ["models/*"],
+          "matches": ["<all_urls>"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
