@@ -1,17 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Meeting</title>
     <style>
         body {
             width: 300px;
-            height: 200px;
+            height: 250px;
             padding: 10px;
             font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #4285f4;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        #logo {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
+        #repository-link {
+            color: #4285f4;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <h1>Meet the meeting extension</h1>
-    <p>This is an open source plugin using tensorflow.js for detecting facial expressions in google meets meetings</p>
+    <img src="icons/logo128.png" alt="Meet the Meeting Logo" id="logo">
+    <h1>Meet the Meeting</h1>
+    <p>This is an open-source plugin using TensorFlow.js for detecting facial expressions in Google Meet meetings.</p>
+    <p>Have any feedback or want to contribute? Access the <a href="https://github.com/hugozanini/meet-the-meeting" id="repository-link" target="_blank">repository</a>.</p>
 </body>
 </html>
