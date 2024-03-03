@@ -1,6 +1,10 @@
+
 # Meet the Meeting Extension
 
-![Meet the Meeting Logo](icons/logo128.png)
+<body> 
+<img  alt="Qries"
+src="https://github.com/hugozanini/meet-the-meeting/blob/main/icons/demo-meet-meeting.gif?raw=true"  width="600">
+</body
 
 ## Overview
 
