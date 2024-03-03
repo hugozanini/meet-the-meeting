@@ -6,6 +6,7 @@
 src="https://github.com/hugozanini/meet-the-meeting/blob/main/icons/demo-meet-meeting.gif?raw=true"  width="600">
 </body
 
+ _
 ## Overview
 
 Meet the Meeting is an open-source Google Meet extension that uses `TensorFlow.js` to detect facial expressions in Google Meet meetings. This extension provides a visual representation of participants' facial expressions, helping to enhance communication and engagement during video conferences.
