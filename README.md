@@ -25,7 +25,7 @@ The extension uses `Tensorflow.js` to perform real-time face detection and expre
 
 To use the Meet the Meeting extension:
 
-1. [Download the extension]([#](https://chromewebstore.google.com/detail/meet-the-meeting/ikcjmpbkjnebkfpidbcpepejghkhhjlf?hl=pt-br))
+1. [Download the extension](https://chromewebstore.google.com/detail/meet-the-meeting/ikcjmpbkjnebkfpidbcpepejghkhhjlf?hl=pt-br)
 2. Install the extension in your Google Chrome browser.
 3. Join a Google Meet meeting, and the extension will automatically detect facial expressions.
 
