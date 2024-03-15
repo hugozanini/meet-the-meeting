@@ -39,7 +39,7 @@ Contributions are welcome! Whether you are a developer, designer, or simply inte
 
 ## Feedback
 
-Got feedback or want to report an issue? We appreciate your input! Visit our [GitHub repository](https://github.com/hugozanini/meet-the-meeting) to share your thoughts.
+Got feedback or want to report an issue? We appreciate your input! Please open an issue in the repo and I'll answer you.
 
 ## License
 
